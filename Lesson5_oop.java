@@ -18,7 +18,6 @@ public class Lesson5_oop {
                 "73472465123", 75000, 45);
 
         System.out.println("Список сотрдуников старше 40 лет:");
-
         for (EmployeeData employee : persArray) {
           if (employee.GetAge() > 40)  employee.Show();
 

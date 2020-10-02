@@ -17,7 +17,6 @@ public class EmployeeData {
         this.age = age;
         }
 
-
     int GetAge() {
         return age;
     }

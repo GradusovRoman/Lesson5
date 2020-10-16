@@ -1,14 +1,14 @@
 package geekbrains.lesson5_homework_oop;
 
 public class EmployeeData {
-    private String name;
-    private String post;
-    private String email ;
-    private String phoneNumber;
-    private int wage;
-    private int age;
+    public String name;
+    public String post;
+    public String email ;
+    public String phoneNumber;
+    public int wage;
+    public int age;
 
-    EmployeeData (String name,String post,String email,String phoneNumber,int wage,int age){
+    public EmployeeData (String name,String post,String email,String phoneNumber,int wage,int age){
         this.name = name;
         this.post = post;
         this.email = email;
@@ -17,11 +17,11 @@ public class EmployeeData {
         this.age = age;
         }
 
-    int GetAge() {
+    public int GetAge() {
         return age;
     }
 
-    void  Show() {
+    public void  Show() {
        System.out.println(name + "\n-"+
                "post: "+post + "\n-"+
                "email: " +email + "\n-"+
